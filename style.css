@@ -6,7 +6,7 @@ body {
    
 }
 .navbar {
-    height: 10em;
+    height: 5em;
     background: #ffffff;
     text-transform: capitalize;
 	display: flex;
@@ -32,7 +32,7 @@ body {
 .navbar ul li{
     margin:0 25px;
 }
-.blue {
+.navbar button {
     background-color:#0829cc;
 	border-radius: 25px;
     color:#ffffff;
@@ -75,19 +75,52 @@ body {
     border:none;
 }
 .design {
-    height: 120vh;
+    height: 100vh;
     width: 95%;
     background: #E1E7FA;
     margin: 4em;    
     display: flex;
 	align-items: center;
 }
-/* .bestPractice {
-    height: 100%;
+.bestPractice {
+    height: 50vh;
     width: 95%;
-    background: red;
-    margin: 4em;    
-} */
+    background: #E1E7FA;
+    margin: 4em;   
+    display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch; 
+}
+.bprTop {
+
+    height:70%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.bprBottom{
+    height:30%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.bpRight{
+    background:#FBFBFB;
+    width: 69%;
+}
+.bpLeft{
+    background: #ffffff;
+    width: 31%;
+}
 /* .library {
     height: 100%;
     width: 95%;
