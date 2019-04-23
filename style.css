@@ -11,10 +11,12 @@ body {
 	display: flex;
 	justify-content: space-between;
     align-items: center;
-    
 
 }
 .logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
  
 }
 .navbar ul {
@@ -53,17 +55,4 @@ body {
     width: 95%;
     background: #E1E7FA;
     margin: 4em;    
-}
-
-.bestPractice {
-    height: 90vh;
-    width: 95%;
-    background: red;
-    margin: 4em; 
-}
-.library {
-    height: 100px;
-    width: 95%;
-    background: red;
-    margin: 4em; 
 }
