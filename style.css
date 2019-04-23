@@ -31,7 +31,16 @@ body {
 .navbar ul li{
     margin:0 25px;
 }
-
+.blue {
+    background-color:#0829cc;
+	border-radius: 25px;
+    color:#ffffff;
+    height: 41px;
+    width: 123px;
+    font-weight: bold;
+    border:none;
+	
+}
 .hero {
 	height: 90vh;
 	background: #ffffff;
@@ -44,12 +53,20 @@ body {
 }
 }
 .design {
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 .design h1 {
    
 }
-
+.design button {
+    background-color:#F80051;
+	border-radius: 25px;
+    color:#ffffff;
+    height: 41px;
+    width: 123px;
+    font-weight: bold;
+    border:none;
+}
 .design {
     height: 100%;
     width: 95%;
