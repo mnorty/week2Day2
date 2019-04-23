@@ -2,6 +2,7 @@ body {
     margin: 1em;
     background: #E1E7FA;
     font-family: 'Muli', sans-serif;
+   
 }
 .navbar {
     height: 10em;
@@ -10,6 +11,7 @@ body {
 	display: flex;
 	justify-content: space-between;
     align-items: center;
+    
 
 }
 .logo {
@@ -21,6 +23,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
     margin: 0 4em;
+    list-style-type: none;
 
 }
 .navbar ul li{
@@ -31,10 +34,18 @@ body {
 	height: 90vh;
 	background: #ffffff;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
 }
-.hero .design{
-
+}
+.design {
+    text-transform: capitalize
+}
+.design h1 {
+   
 }
 
 .design {
@@ -42,6 +53,17 @@ body {
     width: 95%;
     background: #E1E7FA;
     margin: 4em;    
-    
+}
 
+.bestPractice {
+    height: 90vh;
+    width: 95%;
+    background: red;
+    margin: 4em; 
+}
+.library {
+    height: 100px;
+    width: 95%;
+    background: red;
+    margin: 4em; 
 }
