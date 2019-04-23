@@ -8,7 +8,9 @@ body {
     text-transform: capitalize;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+    align-items: center;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
 
 }
 .logo {
