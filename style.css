@@ -1,23 +1,22 @@
 body {
     margin: 1em;
     background: #E1E7FA;
+    font-family: 'Muli', sans-serif;
 }
 .navbar {
-    height: 9em;
+    height: 10em;
     background: #ffffff;
     text-transform: capitalize;
 	display: flex;
 	justify-content: space-between;
     align-items: center;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
 
 }
 .logo {
-    
+ 
 }
 .navbar ul {
-    text-transform: capitalize;
+    text-transform: uppercase;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -30,7 +29,19 @@ body {
 
 .hero {
 	height: 90vh;
-	background: rgba(255, 255, 255, 0.74);
+	background: #ffffff;
 	display: flex;
 	align-items: center;
+}
+.hero .design{
+
+}
+
+.design {
+    height: 100%;
+    width: 95%;
+    background: #E1E7FA;
+    margin: 4em;    
+    
+
 }
